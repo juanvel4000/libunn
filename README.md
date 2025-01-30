@@ -22,10 +22,9 @@ libunn.spinner.stop()
 
 ## Installation
 
-Install my-project with npm
+Install libunn with pip
 
 ```bash
-  npm install my-project
-  cd my-project
+  pip install libunn
 ```
     
