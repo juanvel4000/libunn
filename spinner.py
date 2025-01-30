@@ -24,3 +24,5 @@ def start(message=None):
 def stop():
     global running
     running = False
+    time.sleep(0.2)
+    sys.stdout.write('\n')
