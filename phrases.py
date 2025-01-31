@@ -1,3 +1,4 @@
+# Part of libunn, view: https://github.com/juanvel4000/libunn
 import random
 
 phrases = [
@@ -33,3 +34,9 @@ def rm(phrase):
         return False
     phrases.remove(phrase)
     return True
+def check(phrase):
+    global phrases
+    if phrase not in phrases:
+        return False
+    else:
+        return True

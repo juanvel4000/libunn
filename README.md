@@ -31,6 +31,24 @@ libunn.phrases.add("Hello, World!")
 print(libunn.phrases.rand())
 libunn.phrases.rm("Hello, World!")
 ```
+
+### Log
+#### About:
+Self-explainatory, a log system with 6 Different modes
+#### Usage:
+```python
+import libunn
+log = libunn.log.Log('example.log')
+log.XXXX("Sample warning Text") # Replace XXXX with one of the available Modes
+
+```
+#### Modes
+- **0** Info
+- **1** Success
+- **2** Ok
+- **3** Warn
+- **4** Error
+- **5** Fatal
 ## Installation
 
 Install libunn with pip
