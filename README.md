@@ -31,7 +31,15 @@ libunn.phrases.add("Hello, World!")
 print(libunn.phrases.rand())
 libunn.phrases.rm("Hello, World!")
 ```
-
+### Dice
+#### About:
+Roll a 6-faced dice
+#### Usage:
+```python
+import libunn
+libunn.dice.roll() # Roll one dice
+libunn.dice.rollMultiple(2) # Roll two dices
+```
 ### Log
 #### About:
 Self-explainatory, a log system with 6 Different modes
@@ -39,7 +47,7 @@ Self-explainatory, a log system with 6 Different modes
 ```python
 import libunn
 log = libunn.log.Log('example.log')
-log.XXXX("Sample warning Text") # Replace XXXX with one of the available Modes
+log.XXXX("Sample Text") # Replace XXXX with one of the available Modes
 
 ```
 #### Modes
@@ -56,4 +64,3 @@ Install libunn with pip
 ```bash
   pip install libunn
 ```
-    
