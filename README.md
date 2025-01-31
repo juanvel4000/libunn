@@ -57,6 +57,15 @@ log.XXXX("Sample Text") # Replace XXXX with one of the available Modes
 - **3** Warn
 - **4** Error
 - **5** Fatal
+### Epoch
+#### About:
+Calculate the **Unix** epoch (1970-1-1 00:00:00 UTC) and the **Unn** epoch (2025-1-1 00:00:00 UTC)
+#### Usage:
+```python
+import libunn
+while True:
+  print(f'\rUnix: {libunn.epoch.unix()} | Unn: {libunn.epoch.unn()}', end="")
+```
 ## Installation
 
 Install libunn with pip
