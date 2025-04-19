@@ -3,3 +3,4 @@ pkg.sh
 phrases
 arraygen.sh
 pkg_etc/
+__pycache__/

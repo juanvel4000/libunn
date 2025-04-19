@@ -66,6 +66,19 @@ import libunn
 while True:
   print(f'\rUnix: {libunn.epoch.unix()} | Unn: {libunn.epoch.unn()}', end="")
 ```
+### TUI
+#### About:
+A simple way to add number questions and yes/no questions.
+#### Usage:
+```python
+import libunn
+libunn.tui.yesno("Question", quitProgram=True) # add a quit option
+
+libunn.tui.pick([
+  "Number 1",
+  "Number 2"
+], quitProgram=True)
+```
 ## Installation
 
 Install libunn with pip
